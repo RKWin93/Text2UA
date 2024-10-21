@@ -17,7 +17,7 @@ Modeling and solving the Flexible Job Shop Scheduling Problem (FJSP) is critical
 ![overview]()
 
 
-## Analysis of different text prompt templates
+## Analysis
 ![analysis](./assets/analysis.png) 
 
 
