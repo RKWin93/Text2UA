@@ -58,7 +58,7 @@ xxxxxxxx
 ![industrial](./assets/Industrial.png) 
 
 
-## We provide the reproduction of  [here]() for multi-reward and single-step for FJSP
+## We provide the reproduction of  [here]() environment for multi-rewards feedback and single-step selection for FJSP
 
 
 * We thank for the code repository: [xxxx](xxxx)
