@@ -62,6 +62,7 @@ xxxxxxxx
 
 
 * We re-program the DRL environment for multi-rewards feedback and single-step selection for FJSP. We thank for the code repository: [xxxx](xxxx)
+* We thank for the code repository multi-policy DRL [xxxx](xxxx)
 
 
 ## BibTex Citation
