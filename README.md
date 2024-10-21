@@ -1,7 +1,7 @@
 # E2E-MAPPO-for-MT-FJSP
 Official implementation for "End-to-end Multi-target Flexible Job Shop Scheduling with Deep Reinforcement Learning" (IoTJ-2024). 
 
-# E2E-MAPPO (Action without Rules and Meta-Heuristic)
+# E2E-MAPPO (Action without any Rules)
 > [**IoTJ-24**] [**End-to-end Multi-target Flexible Job Shop Scheduling with Deep Reinforcement Learning**]()
 >
 > by [Rongkai Wang](), [Yiyang Jing](),  [Chaojie Gu](), [Shibo He](https://scholar.google.com/citations?hl=zh-CN&user=5GOcb4gAAAAJ&view_op=list_works&sortby=pubdate), [Jiming Chen](https://scholar.google.com/citations?user=zK9tvo8AAAAJ&hl=zh-CN).
