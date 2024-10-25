@@ -70,5 +70,14 @@ xxxxxxxx
 If you find this paper and repository useful, please cite our paper.
 
 ```
+@ARTICLE{10734312,
+  author={Wang, Rongkai and Jing, Yiyang and Gu, Chaojie and He, Shibo and Chen, Jiming},
+  journal={IEEE Internet of Things Journal}, 
+  title={End-to-end Multi-Target Flexible Job Shop Scheduling With Deep Reinforcement Learning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JIOT.2024.3485748}}
 
 ```
