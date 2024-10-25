@@ -21,7 +21,7 @@ Modeling and solving the Flexible Job Shop Scheduling Problem (FJSP) is critical
 ![System model](./Assets/model.png)
 
 ## Overview of E2E-MAPPO
-![overview](./Assets/method.png)
+![Overview](./Assets/method.png)
 
 ## Main results
 ![Main result1](./Assets/table1.png) 
