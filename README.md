@@ -83,6 +83,17 @@ xxxxxxxx
 If you find this paper and repository useful, please cite our paper.
 
 ```
-
-
+@articleInfo{JAS-2024-1271,
+title = "Text2UA: Automatic OPC UA Information Modeling from Textual Data with Large Language Model",
+journal = "IEEE/CAA Journal of Automatica Sinica",
+volume = "12",
+number = "JAS-2024-1271,
+pages = "1",
+year = "2025",
+note = "",
+issn = "2329-9266",
+doi = "10.1109/JAS.2025.125114",
+url = "https://www.ieee-jas.net/en/article/doi/10.1109/JAS.2025.125114",
+author = "Rongkai Wang","Chaojie Gu","Shibo He","Jiming Chen"
+}
 ```
