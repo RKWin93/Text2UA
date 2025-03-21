@@ -14,7 +14,8 @@ Official implementation for "Text2UA: Automatic OPC UA Information Modeling from
 
 ## Introduction 
 <img src="./Assets/OPCUA-IM.png" width="800" alt="OPC UA Information Model">
-We deals with automatically constructing an OPC UA information model (IM) aimed at enhancing data interoperability among heterogeneous system components within manufacturing automation systems. Empowered by the large language model (LLM), we propose a novel multi-agent collaborative framework to streamline the endto-end OPC UA IM modeling process. Each agent is equipped with meticulously engineered prompt templates, augmenting their capacity to execute specific tasks. We conduct modeling experiments using real textual data to demonstrate the effectiveness of the proposed method, improving modeling efficiency and reducing the labor workload.
+
+We deals with automatically constructing an OPC UA information model (IM) aimed at enhancing data interoperability among heterogeneous system components within manufacturing automation systems. Empowered by the large language model (LLM), we propose a novel multi-agent collaborative framework to streamline the endto-end OPC UA IM modeling process. Each agent is equipped with meticulously engineered prompt templates, augmenting their capacity to execute specific tasks. We conduct modeling experiments using real textual data to demonstrate the effectiveness of the proposed method, improving modeling efficiency and reducing the labor workload. 
 
 **Contributions:**
 - *End-to-end efficient OPC UA information modeling method*
@@ -25,7 +26,8 @@ We deals with automatically constructing an OPC UA information model (IM) aimed 
 <img src="./Assets/motivation.png" width="800" alt="Motivation">
 
 When using OPC UA, the first step is establishing IM for each physical component (e.g., devices) across systems. This process has several steps, including mapping object entities and their properties or operations to corresponding object, variable, or method nodes in IM, along with their respective node attributes (e.g., name, ID, description, default value, or datatype).
-**Existing Methods' Limitation:**
+
+**Existing Methods' Limitations:**
 1) Manually identifying and summarizing the information needed for modeling from data sources is a labor-intensive modeling method with low efficiency.
 2) Mapping rule-based modeling methods require a reference data model established through prior manual efforts and are difficult to adapt to dynamic changes. 
 
