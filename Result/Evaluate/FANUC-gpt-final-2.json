@@ -1,0 +1,76 @@
+{
+    "tuples": [
+        {
+            "SubjectEntity_1": {
+                "Name": "FANUC M-710IC",
+                "Definition": "A medium-sized handling robot capable of carrying loads from 12kg to 70kg.",
+                "Type": "Object",
+                "Children": [
+                    {
+                        "ObjectEntity_1": {
+                            "Name": "Load Capacity",
+                            "Definition": "The range of loads that the robot can carry",
+                            "Data": "12kg to 70kg",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    },
+                    {
+                        "ObjectEntity_2": {
+                            "Name": "Axis",
+                            "Definition": "The number of axes the robot operates on",
+                            "Data": "5-axis",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    },
+                    {
+                        "ObjectEntity_4": {
+                            "Name": "Handling System Capacity",
+                            "Definition": "The maximum load capacity of the handling system",
+                            "Data": "50kg",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    },
+                    {
+                        "ObjectEntity_5": {
+                            "Name": "Environmental Resistance",
+                            "Definition": "The level of environmental resistance of the robot",
+                            "Data": "IP67 (dustproof and waterproof)",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    },
+                    {
+                        "ObjectEntity_2": {
+                            "Name": "Installation",
+                            "Definition": "The installation options for the robot",
+                            "Data": "Overhead installation",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    },
+                    {
+                        "ObjectEntity_3": {
+                            "Name": "Suitability",
+                            "Definition": "The suitability of the robot for high-speed handling",
+                            "Data": "High-speed handling",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    },
+                    {
+                        "ObjectEntity_4": {
+                            "Name": "Compact System",
+                            "Definition": "The capability of the robot to enable the construction of a compact handling system",
+                            "Data": "Capable of carrying 50kg",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

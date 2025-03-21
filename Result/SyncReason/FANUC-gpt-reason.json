@@ -1,0 +1,60 @@
+{
+    "reasons": [
+        {
+            "ObjectEntity from provided tuples": {
+                "Name": "Load Capacity",
+                "Definition": "The range of loads that the robot can carry",
+                "IsBelongTo": "FANUC M-710IC",
+                "Reason": "The 'Load Capacity' is a characteristic specific to the 'FANUC M-710IC' robot."
+            }
+        },
+        {
+            "ObjectEntity from provided tuples": {
+                "Name": "Axis",
+                "Definition": "The number of axes the robot operates on",
+                "IsBelongTo": "FANUC M-710IC",
+                "Reason": "The 'Axis' is a feature related to the configuration of the 'FANUC M-710IC' robot."
+            }
+        },
+        {
+            "ObjectEntity from provided tuples": {
+                "Name": "Handling System Capacity",
+                "Definition": "The maximum load capacity of the handling system",
+                "IsBelongTo": "FANUC M-710IC",
+                "Reason": "The 'Handling System Capacity' is a parameter specific to the 'FANUC M-710IC' robot."
+            }
+        },
+        {
+            "ObjectEntity from provided tuples": {
+                "Name": "Environmental Resistance",
+                "Definition": "The level of environmental resistance of the robot",
+                "IsBelongTo": "FANUC M-710IC",
+                "Reason": "The 'Environmental Resistance' is a characteristic unique to the 'FANUC M-710IC' robot."
+            }
+        },
+        {
+            "ObjectEntity from provided tuples": {
+                "Name": "Installation",
+                "Definition": "The installation options for the robot",
+                "IsBelongTo": "FANUC M-710IC",
+                "Reason": "The 'Installation' details are specific to the 'FANUC M-710IC' robot model."
+            }
+        },
+        {
+            "ObjectEntity from provided tuples": {
+                "Name": "Suitability",
+                "Definition": "The suitability of the robot for high-speed handling",
+                "IsBelongTo": "FANUC M-710IC",
+                "Reason": "The 'Suitability' information is relevant to the performance of the 'FANUC M-710IC' robot."
+            }
+        },
+        {
+            "ObjectEntity from provided tuples": {
+                "Name": "Compact System",
+                "Definition": "The capability of the robot to enable the construction of a compact handling system",
+                "IsBelongTo": "FANUC M-710IC",
+                "Reason": "The 'Compact System' feature is specific to the design of the 'FANUC M-710IC' robot."
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+<ModelDesign xmlns="http://opcfoundation.org/UA/ModelDesign.xsd" xmlns:OPCUAbyLLM="https://opcua.WRK/UA/OPCUAbyLLM/" xmlns:ua="http://opcfoundation.org/UA/" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" TargetNamespace="https://opcua.WRK/UA/OPCUAbyLLM/" TargetPublicationDate="2024-08-16T00:00:08Z" TargetVersion="1.0.0" TargetXmlNamespace="https://opcua.WRK/UA/OPCUAbyLLM/">
+<Namespaces>
+<Namespace Name="OPCUAbyLLM" Prefix="OPCUAbyLLM" XmlNamespace="https://opcua.WRK/UA/OPCUAbyLLM/Types.xsd" XmlPrefix="OPCUAbyLLM">https://opcua.WRK/UA/OPCUAbyLLM/</Namespace>
+<Namespace InternalPrefix="Opc.Ua.Server" Name="OpcUa" Prefix="Opc.Ua" PublicationDate="2013-12-02T00:00:00Z" Version="1.03" XmlNamespace="http://opcfoundation.org/UA/2008/02/Types.xsd" XmlPrefix="OpcUa">http://opcfoundation.org/UA/</Namespace>
+</Namespaces>
+<ObjectType BaseType="ua:BaseObjectType" SymbolicName="OPCUAbyLLM:_FANUC_M-710IC">
+<Description>A specific industrial robot model produced by FANUC.. A medium-sized handling robot capable of carrying loads from 12kg to 70kg.</Description>
+<Children>
+    <Object ModellingRule="Mandatory" SymbolicName="OPCUAbyLLM:_RobotArm">
+        <Description>The main arm of the robot responsible for movement.</Description>
+        <Children>
+            <Method SymbolicName="OPCUAbyLLM:_MoveToPosition">
+                <Description>Method to command the robot arm to move to a specific position.</Description>
+            </Method>
+            <Method SymbolicName="OPCUAbyLLM:_Calibrate">
+                <Description>Method to calibrate the robot arm for accurate positioning.</Description>
+            </Method>
+        </Children>
+    </Object>
+    <Object ModellingRule="Mandatory" SymbolicName="OPCUAbyLLM:_Controller">
+        <Description>The central control unit of the robot.</Description>
+        <Children>
+            <Method SymbolicName="OPCUAbyLLM:_Start">
+                <Description>Method to start the robot operation.</Description>
+            </Method>
+            <Method SymbolicName="OPCUAbyLLM:_Stop">
+                <Description>Method to stop the robot operation.</Description>
+            </Method>
+        </Children>
+    </Object>
+    <Property DataType="ua:String" ModellingRule="Mandatory" SymbolicName="OPCUAbyLLM:_Load_Capacity" ValueRank="Scalar">
+        <Description>The range of loads that the robot can carry</Description>
+        <DefaultValue>
+            <uax:String>12kg to 70kg</uax:String>
+        </DefaultValue>
+    </Property>
+    <Property DataType="ua:String" ModellingRule="Mandatory" SymbolicName="OPCUAbyLLM:_Axis" ValueRank="Scalar">
+        <Description>The number of axes the robot operates on</Description>
+        <DefaultValue>
+            <uax:String>5-axis</uax:String>
+        </DefaultValue>
+    </Property>
+    <Property DataType="ua:String" ModellingRule="Mandatory" SymbolicName="OPCUAbyLLM:_Handling_System_Capacity" ValueRank="Scalar">
+        <Description>The maximum load capacity of the handling system</Description>
+        <DefaultValue>
+            <uax:String>50kg</uax:String>
+        </DefaultValue>
+    </Property>
+    <Property DataType="ua:String" ModellingRule="Mandatory" SymbolicName="OPCUAbyLLM:_Environmental_Resistance" ValueRank="Scalar">
+        <Description>The level of environmental resistance of the robot</Description>
+        <DefaultValue>
+            <uax:String>IP67 (dustproof and waterproof)</uax:String>
+        </DefaultValue>
+    </Property>
+    <Property DataType="ua:String" ModellingRule="Mandatory" SymbolicName="OPCUAbyLLM:_Installation" ValueRank="Scalar">
+        <Description>The installation options for the robot</Description>
+        <DefaultValue>
+            <uax:String>Overhead installation</uax:String>
+        </DefaultValue>
+    </Property>
+    <Property DataType="ua:String" ModellingRule="Mandatory" SymbolicName="OPCUAbyLLM:_Suitability" ValueRank="Scalar">
+        <Description>The suitability of the robot for high-speed handling</Description>
+        <DefaultValue>
+            <uax:String>High-speed handling</uax:String>
+        </DefaultValue>
+    </Property>
+    <Property DataType="ua:String" ModellingRule="Mandatory" SymbolicName="OPCUAbyLLM:_Compact_System" ValueRank="Scalar">
+        <Description>The capability of the robot to enable the construction of a compact handling system</Description>
+        <DefaultValue>
+            <uax:String>Capable of carrying 50kg</uax:String>
+        </DefaultValue>
+    </Property>
+</Children>
+</ObjectType>
+</ModelDesign>
+        

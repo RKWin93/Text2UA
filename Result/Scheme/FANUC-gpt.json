@@ -1,0 +1,57 @@
+{
+    "schema": {
+        "MetaSubjectEntity": {
+            "Name": "FANUC M-710IC",
+            "Definition": "A specific industrial robot model produced by FANUC.",
+            "Type": "Object",
+            "Children": [
+                {
+                    "SubjectEntity_1": {
+                        "Name": "RobotArm",
+                        "Definition": "The main arm of the robot responsible for movement.",
+                        "Type": "Object",
+                        "Children": [
+                            {
+                                "MethodEntity_1": {
+                                    "Name": "MoveToPosition",
+                                    "Definition": "Method to command the robot arm to move to a specific position.",
+                                    "Type": "Method"
+                                }
+                            },
+                            {
+                                "MethodEntity_2": {
+                                    "Name": "Calibrate",
+                                    "Definition": "Method to calibrate the robot arm for accurate positioning.",
+                                    "Type": "Method"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "SubjectEntity_2": {
+                        "Name": "Controller",
+                        "Definition": "The central control unit of the robot.",
+                        "Type": "Object",
+                        "Children": [
+                            {
+                                "MethodEntity_3": {
+                                    "Name": "Start",
+                                    "Definition": "Method to start the robot operation.",
+                                    "Type": "Method"
+                                }
+                            },
+                            {
+                                "MethodEntity_4": {
+                                    "Name": "Stop",
+                                    "Definition": "Method to stop the robot operation.",
+                                    "Type": "Method"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

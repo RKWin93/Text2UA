@@ -1,0 +1,58 @@
+{
+    "tuples": [
+        {
+            "SubjectEntity_1": {
+                "Name": "FANUC M-710IC",
+                "Definition": "A medium-sized handling robot capable of carrying loads from 12kg to 70kg.",
+                "Type": "Object",
+                "Children": [
+                    {
+                        "ObjectEntity_1": {
+                            "Name": "Load Capacity",
+                            "Definition": "The range of loads that the robot can carry",
+                            "Data": "12kg to 70kg",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    },
+                    {
+                        "ObjectEntity_2": {
+                            "Name": "Axis",
+                            "Definition": "The number of axes the robot operates on",
+                            "Data": "5-axis",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    },
+                    {
+                        "ObjectEntity_3": {
+                            "Name": "Installation",
+                            "Definition": "The possible installation configurations of the robot",
+                            "Data": "Overhead",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    },
+                    {
+                        "ObjectEntity_4": {
+                            "Name": "Compact Handling System Capacity",
+                            "Definition": "The maximum load the compact handling system can carry",
+                            "Data": "50kg",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    },
+                    {
+                        "ObjectEntity_5": {
+                            "Name": "Environmental Resistance",
+                            "Definition": "The level of resistance to environmental factors",
+                            "Data": "Equivalent to IP67 (dustproof and waterproof)",
+                            "DataType": "String",
+                            "Type": "Variable"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

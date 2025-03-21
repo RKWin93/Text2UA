@@ -1,0 +1,30 @@
+Manufacturer-article name
+Solenoid valve
+Manufacturer code
+VUVG-L14-T32C-AT-G18-1R8L
+Part number
+574226
+Valve function
+2x3/2 closed, monostable
+Type of actuation
+electrical
+Valve size
+14 mm
+Standard nominal flow rate
+560 l/min
+Operating pressure
+1.5 ... 8 bar
+Design structure
+Piston slide
+Type of reset
+Air spring
+Protection class
+IP65 with plug socket
+Nominal size
+4.6 mm
+Switching time off
+23 ms
+Switching time on
+8 ms
+Duty cycle
+100 %
