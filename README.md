@@ -101,7 +101,7 @@ xxxxxxxx
 
 ## Thanks for code repository
 <!-- * We re-program the DRL environment for multi-rewards feedback and single-step selection for FJSP. -->
-* We thank for the code repository: [AASbyLLM](https://github.com/YuchenXia/AASbyLLM)
+* We thank for the code repository: [AASbyLLM](https://github.com/YuchenXia/AASbyLLM) and [sentence-transformers/all-distilroberta-v1](https://huggingface.co/sentence-transformers/all-distilroberta-v1/tree/main)
 
 
 ## BibTex Citation
