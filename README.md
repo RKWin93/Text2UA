@@ -19,9 +19,11 @@ Official implementation for "Text2UA: Automatic OPC UA Information Modeling from
 We deals with automatically constructing an OPC UA information model (IM) aimed at enhancing data interoperability among heterogeneous system components within manufacturing automation systems. Empowered by the large language model (LLM), we propose a novel multi-agent collaborative framework to streamline the endto-end OPC UA IM modeling process. Each agent is equipped with meticulously engineered prompt templates, augmenting their capacity to execute specific tasks. We conduct modeling experiments using real textual data to demonstrate the effectiveness of the proposed method, improving modeling efficiency and reducing the labor workload. 
 
 **Contributions:**
+- **First Work about automated OPC UA Information Modeling based on LLM.**
 - *End-to-end efficient OPC UA information modeling method*
 - *Compatible with multiple data sources*
 - *Do not rely on a predefined reference data model*
+- **First propose Metrics for evaluating OPC UA information modeling process**
 
 ## Motivation（Easy Build for OPC UA Information Modeling）
 <img src="./Assets/motivation.png" width="800" alt="Motivation">
