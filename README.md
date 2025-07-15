@@ -6,6 +6,8 @@ Official implementation for "Text2UA: Automatic OPC UA Information Modeling from
 >
 > by [Rongkai Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=l-zF-W0AAAAJ),  [Chaojie Gu](https://scholar.google.com.hk/citations?hl=zh-CN&user=P7O3FpsAAAAJ), [Shibo He](https://scholar.google.com/citations?hl=zh-CN&user=5GOcb4gAAAAJ&view_op=list_works&sortby=pubdate), [Jiming Chen](https://scholar.google.com/citations?user=zK9tvo8AAAAJ&hl=zh-CN).
 
+The Web page DEMO of Text2UA:
+![OPC UA-web](./Assets/opcua自动建模加速1.gif) 
 
 ## Updates
 
